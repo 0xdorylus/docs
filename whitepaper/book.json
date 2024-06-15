@@ -1,0 +1,26 @@
+{
+    "title": "dorylus GitBook",
+    "author": "Dati",
+    "language": "zh",
+    "plugins": ["search", "fontsettings", "lunr", "highlight", "splitter"],
+    "pluginsConfig": {
+        "splitter": {
+        "languages": ["en", "zh"],
+        "defaultLanguage": "en"
+        }
+    },
+
+    "theme": "theme-name",
+    "pdf": {
+        "toc": true,
+        "pageNumbers": false,
+        "fontSize": 12,
+        "paperSize": "a4",
+        "margin": {
+            "right": 62,
+            "left": 62,
+            "top": 36,
+            "bottom": 36
+        }
+    }
+  }
